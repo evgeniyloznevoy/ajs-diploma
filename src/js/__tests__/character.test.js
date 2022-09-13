@@ -1,5 +1,5 @@
-import Character from '../Characters/Character';
-import Swordsman from '../Characters/Swordsman';
+import Character from '../characters/Character';
+import Swordsman from '../characters/Swordsman';
 
 test('new Character => error', () => {
   expect(() => new Character(1, 'swordsman')).toThrowError(new Error('Do not use new Character()'));
