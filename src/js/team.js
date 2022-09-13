@@ -1,8 +1,8 @@
 import { generateTeam, positionGenerator } from './generators';
 import PositionedCharacter from './PositionedCharacter';
-import Bowman from './Characters/Bowman';
-import Swordsman from './Characters/Swordsman';
-import Magician from './Characters/Magician';
+import Bowman from './characters/Bowman';
+import Swordsman from './characters/Swordsman';
+import Magician from './characters/Magician';
 
 export default class Team {
   constructor() {
