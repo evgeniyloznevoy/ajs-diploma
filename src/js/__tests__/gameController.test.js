@@ -1,8 +1,8 @@
 import GameController from '../GameController';
 import GamePlay from '../GamePlay';
 import PositionedCharacter from '../PositionedCharacter';
-import Swordsman from '../Characters/Swordsman';
-import Daemon from '../Characters/Daemon';
+import Swordsman from '../characters/Swordsman';
+import Daemon from '../characters/Daemon';
 
 test('template literals', () => {
   // create game
