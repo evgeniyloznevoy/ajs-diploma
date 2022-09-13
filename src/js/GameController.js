@@ -1,7 +1,7 @@
 import GamePlay from './GamePlay';
 import GameState from './GameState';
 import themes from './themes';
-import Team from './Team';
+import Team from './team';
 import EnemyTeam from './EnemyTeam';
 
 export default class GameController {

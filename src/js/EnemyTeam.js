@@ -1,4 +1,4 @@
-import Team from './Team';
+import Team from './team';
 import { generateTeam, positionGenerator } from './generators';
 import PositionedCharacter from './PositionedCharacter';
 import Daemon from './characters/Daemon';
