@@ -16,7 +16,7 @@ export default class GameState {
     this.enemyTeam = enemy;
   }
 
-  // restoring from load object
+  // restoring from load object;
   from(object) {
     this.level = object.level;
     this.turn = object.turn;

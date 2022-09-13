@@ -124,7 +124,7 @@ export default class EnemyTeam extends Team {
 
   // levelUp() changes the original one in the class prototype
   levelUp(level, countChar) {
-    // generate new team on start lines
+    // generate new team
     const posGenerator = positionGenerator(this.startLines, 8);
     const newMembers = generateTeam(this.allowedTypes, level, countChar);
 

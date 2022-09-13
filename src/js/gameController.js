@@ -18,7 +18,7 @@ export default class GameController {
     this.playerTeam.init();
     this.enemyTeam.init();
 
-    // create game state object: (turn, level, score, best score, player team, enemy team)
+    // create game state object: (turn, level, score, best score, player team, enemy team);
     const bestScore = this.state !== undefined ? this.state.bestScore : 0;
     this.state = new GameState(
       0, 0, 0, bestScore, this.playerTeam.positioned, this.enemyTeam.positioned,

@@ -86,3 +86,4 @@ export default class PositionedCharacter {
     return attackArray;
   }
 }
+
