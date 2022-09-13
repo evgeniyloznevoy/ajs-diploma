@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wmgm6gefrexgv1wh?svg=true)](https://ci.appveyor.com/project/evgeniyloznevoy/ajs-diploma)
