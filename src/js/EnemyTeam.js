@@ -1,9 +1,9 @@
 import Team from './Team';
 import { generateTeam, positionGenerator } from './generators';
 import PositionedCharacter from './PositionedCharacter';
-import Daemon from './Characters/Daemon';
-import Undead from './Characters/Undead';
-import Vampire from './Characters/Vampire';
+import Daemon from './characters/Daemon';
+import Undead from './characters/Undead';
+import Vampire from './characters/Vampire';
 
 export default class EnemyTeam extends Team {
   constructor() {
